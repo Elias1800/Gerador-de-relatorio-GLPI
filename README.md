@@ -4,6 +4,7 @@
 ![GLPI](https://img.shields.io/badge/GLPI-10.x-orange)
 ![Status](https://img.shields.io/badge/status-Concluído-red)
 [![Licença MIT](https://img.shields.io/badge/licença-MIT-yellow)](LICENSE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elias-barbosa-367280282)
 
 Este programa permite a geração de relatórios detalhados no formato Excel a partir de dados extraídos do GLPI. Ele organiza informações como abertura e fechamento de chamados, usuário e outros detalhes relevantes.
 
