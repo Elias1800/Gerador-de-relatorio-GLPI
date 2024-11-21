@@ -43,21 +43,26 @@ As bibliotecas usadas no projeto são:
 
 Para instalar as bibliotecas necessárias, use o comando abaixo:
 
-```
-# 1. Instalar bibliotecas necessárias:
-pip install pandas xlwings sqlalchemy
+  
+1. Instalar bibliotecas necessárias:
+   
+  ```
+  pip install pandas xlwings sqlalchemy
+  ```
 
-# 2. Instale o PyInstaller:
-pip install pyinstaller
-```
+2. Instale o PyInstaller:
+   
+  ```
+  pip install pyinstaller
+  ```
 As bibliotecas **html**, **os**, **re**, e **tkinter** já fazem parte da biblioteca
 padrão do Python e não precisam de instalação adicional.
 
 ## Instalação
 1. Clone o repositório:
-   ```
-   git clone https://github.com/Elias1800/Gerador-de-relatorio-GLPI.git
-   ```
+  ```
+  git clone https://github.com/Elias1800/Gerador-de-relatorio-GLPI.git
+  ```
 2. Acesse o diretório do projeto:
   ```
   cd gerador-relatorios-glpi
@@ -77,18 +82,20 @@ padrão do Python e não precisam de instalação adicional.
           print(f"Erro ao conectar: {err}")
           return None
    ```
-3. Substitua as credenciais de exemplo pelos dados do seu ambiente:
+   
+4. Substitua as credenciais de exemplo pelos dados do seu ambiente:
    - `endereco-do-database:port`: Endereço do servidor.
    - `user`: Usuário.
    - `senha`: Senha.
    - `name-database`: Nome do banco de dados.
-4. Salve o arquivo após editar.
+5. Salve o arquivo após editar.
 
 ## Como usar
 1. Execute o programa no terminal:
-  ```
-    python Script.py
-  ```
+ ```
+ python Script.py
+ ```
+
 2. Siga as instruções exibidas no terminal para:
    - Selecionar filtros e datas.
    - Gerar os relatórios.
@@ -101,15 +108,18 @@ Se você deseja compilar o programa para um executável `.exe` no Windows, siga 
   ``` 
   pyinstaller --onefile --noconsole Script.py
   ```
+
 2. O executável será gerado no diretório `dist/`:
   ```
   # Verifique o caminho:
   cd dist
   ```
+
 3. Teste o executável:
-   ```
-   ./Script.exe
-   ```
+  ```
+  ./Script.exe
+  ```
+   
 ### Observação:
 A opção `--noconsole` cria o executável sem abrir o terminal ao executá-lo. Isso é útil para interfaces gráficas ou programas que não precisam de interação no terminal.
 
